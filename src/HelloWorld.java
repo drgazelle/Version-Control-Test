@@ -3,7 +3,12 @@
  * as string
  */
 public class HelloWorld {
+    private static String phrase;
     public static String getPhrase() {
-        return "hello world!";
+        return phrase;
+    }
+
+    public static void setPhrase(String p) {
+        phrase = p;
     }
 }
