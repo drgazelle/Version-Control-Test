@@ -10,5 +10,6 @@ public class VCSDriver {
         String i = input.nextLine();
         HelloWorld.setPhrase(i);
         System.out.println(HelloWorld.getPhrase());
+        System.out.println("Congrats!");
     }
 }
